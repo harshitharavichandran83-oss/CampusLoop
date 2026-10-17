@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "CampusLoop",
+    "slug": "campusloop",
+    "scheme": "campusloop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.campusloop.mobile"
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow CampusLoop to share your location with the buyer only while you are completing an active campus delivery."
+        }
+      ]
+    ]
+  }
+}

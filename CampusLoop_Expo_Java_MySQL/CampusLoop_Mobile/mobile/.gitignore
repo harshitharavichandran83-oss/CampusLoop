@@ -1,0 +1,9 @@
+**/node_modules/
+**/.expo/
+**/target/
+**/.env
+**/.env.*
+**/uploads/
+*.log
+*.class
+.DS_Store
